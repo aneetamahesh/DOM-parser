@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PlayerManagement >
+	
+
+	<player>
+        <player id="P01">
+            <player_name> MRINIS </player_name>
+            <sport_id>1001</sport_id>
+            <specialisation>Cornerback</specialisation>
+            <join_date>29 JAN 2000</join_date>
+            <salary>30000</salary>
+            <address>Spain</address>
+            <contact_no>1234098765</contact_no>
+            
+	</player>
+
+    <player>
+        <player id="P02">
+            <player_name> BALE </player_name>
+            <sport_id>1003</sport_id>
+            <specialisation>Quarterback</specialisation>
+            <join_date>25 NOV 2001</join_date>
+            <salary>40000</salary>
+            <address>Korea</address>
+            <contact_no>9876540123</contact_no>
+    </player>
+
+    <player>
+        <player id="P03">
+            <player_name> DAVID </player_name>
+            <sport_id>1001</sport_id>
+            <specialisation>Tight end</specialisation>
+            <join_date>12 FEB 1998</join_date>
+            <salary>50000</salary>
+            <address>Barcelona</address>
+            <contact_no>7874561230</contact_no>
+    </player>
+
+    <player>
+        <player id="P04">
+            <player_name> ROBERT </player_name>
+            <sport_id>1005</sport_id>
+            <specialisation>Defensive Linemen</specialisation>
+            <join_date>29 JAN 2000</join_date>
+            <salary>60000</salary>
+            <address>Austria</address>
+            <contact_no>3546092378</contact_no>
+    </player>
+
+    <player>
+        <player id="P05">
+            <player_name>ALFRED DENNISON </player_name>
+            <sport_id>1006</sport_id>
+            <specialisation>Cornerback</specialisation>
+            <join_date>26 MAY 2001</join_date>
+            <salary>70000</salary>
+            <address>Vienna</address>
+            <contact_no>9645547431</contact_no>
+
+        </player>
+
+    <player>
+        <player id="P06">
+            <player_name> WILL SMITH </player_name>
+            <sport_id>1006</sport_id>
+            <specialisation>Tight end</specialisation>
+            <join_date>26 MAY 2001</join_date>
+            <salary>40000</salary>
+            <address>Paris</address>
+            <contact_no>6584723548</contact_no>
+    </player>
+
+    <player>
+        <player id="P07">
+            <player_name>JON SNOW </player_name>
+            <sport_id>1002</sport_id>
+            <specialisation>Defensive Linemen</specialisation>
+            <join_date>6 DEC 2002</join_date>
+            <salary>50000</salary>
+            <address>Berlin</address>
+            <contact_no>7254023148</contact_no>
+    </player>
+
+    <player>
+        <player id="P08">
+            <player_name> NOAH EDWIN </player_name>
+            <sport_id>1005</sport_id>
+            <specialisation>FIELDER</specialisation>
+            <join_date>4 JULY 2002</join_date>
+            <salary>30000</salary>
+            <address>Helsinki</address>
+            <contact_no>5478565214</contact_no>
+		
+    </player>
+
+    <player>
+        <player id="P09">
+            <player_name>NEWMAN DEW </player_name>
+            <sport_id>1001</sport_id>
+            <specialisation>KICKER</specialisation>
+            <join_date>1 SEP 2005</join_date>
+            <salary>30000</salary>
+            <address>Barcelona</address>
+            <contact_no>9867458245</contact_no>
+    
+        </player>
+
+    <player>
+        <player id="P10">
+            <player_name> CHARLES </player_name>
+            <sport_id>1001</sport_id>
+            <specialisation>SAFETY</specialisation>
+            <join_date>5 FEB 2003</join_date>
+            <salary>30000</salary>
+            <address>Tokyo</address>
+            <contact_no>7548214563</contact_no>
+		
+    </player>
+
+
+
+</PlayerManagement>
