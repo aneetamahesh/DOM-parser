@@ -74,13 +74,13 @@ const changeNode = (id) => {
     document.getElementById("form_cont").classList.toggle('hide');
     const form = document.getElementById("changeForm");
     let formElem = `
-    <input disabled class='input_fields' type='text' placeholder='Member Id' value='${state.xmlDocObj.getElementsByTagName("player_id")[id].childNodes[0].nodeValue}'/>
-    <input disabled class='input_fields' type='text' placeholder='Team Id' value='${state.xmlDocObj.getElementsByTagName("sport_id")[id].childNodes[0].nodeValue}'/>
-    <input class='input_fields' type='text' placeholder='First Name' value='${state.xmlDocObj.getElementsByTagName("specialisation")[id].childNodes[0].nodeValue}'/>
-    <input class='input_fields' type='text' placeholder='Last Name' value='${state.xmlDocObj.getElementsByTagName("join_date")[id].childNodes[0].nodeValue}'/>
-    <input class='input_fields' type='text' placeholder='Gender' value='${state.xmlDocObj.getElementsByTagName("salary")[id].childNodes[0].nodeValue}'/>
-    <input class='input_fields' type='text' placeholder='Mobile Number' value='${state.xmlDocObj.getElementsByTagName("address")[id].childNodes[0].nodeValue}'/>
-    <input class='input_fields' type='text' placeholder='Email' value='${state.xmlDocObj.getElementsByTagName("contact_no")[id].childNodes[0].nodeValue}'/>
+    <input disabled class='input_fields' type='text' placeholder='Player Name' value='${state.xmlDocObj.getElementsByTagName("player_name")[id].childNodes[0].nodeValue}'/>
+    <input disabled class='input_fields' type='text' placeholder='Sport Id' value='${state.xmlDocObj.getElementsByTagName("sport_id")[id].childNodes[0].nodeValue}'/>
+    <input class='input_fields' type='text' placeholder=Specialisation' value='${state.xmlDocObj.getElementsByTagName("specialisation")[id].childNodes[0].nodeValue}'/>
+    <input class='input_fields' type='text' placeholder='Join Date' value='${state.xmlDocObj.getElementsByTagName("join_date")[id].childNodes[0].nodeValue}'/>
+    <input class='input_fields' type='text' placeholder='Salary' value='${state.xmlDocObj.getElementsByTagName("salary")[id].childNodes[0].nodeValue}'/>
+    <input class='input_fields' type='text' placeholder='Address' value='${state.xmlDocObj.getElementsByTagName("address")[id].childNodes[0].nodeValue}'/>
+    <input class='input_fields' type='text' placeholder='Contact No' value='${state.xmlDocObj.getElementsByTagName("contact_no")[id].childNodes[0].nodeValue}'/>
     <div class='btn_cont'>
         <button class='submit_btn' type='submit' onclick='submitFormHandler(${id})'>Submit</button>
         <button class='cancel_btn' onclick='cancelFormHandler()'>Cancel</button>
@@ -96,7 +96,7 @@ const changeNode = (id) => {
 const submitFormHandler = (id) => {
     event.preventDefault();
     const inputFields = document.getElementsByClassName("input_fields");
-    state.xmlDocObj.getElementsByTagName("plauyer_id")[id].childNodes[0].nodeValue = inputFields[0].value;
+    state.xmlDocObj.getElementsByTagName("plauyer_name")[id].childNodes[0].nodeValue = inputFields[0].value;
     state.xmlDocObj.getElementsByTagName("sport_id")[id].childNodes[0].nodeValue = inputFields[1].value;
     state.xmlDocObj.getElementsByTagName("specialisation")[id].childNodes[0].nodeValue = inputFields[2].value;
     state.xmlDocObj.getElementsByTagName("join_date")[id].childNodes[0].nodeValue = inputFields[3].value;
@@ -120,7 +120,7 @@ const addNewFormHandler = () => {
     document.getElementById("form_heading").innerHTML = "Add new node"
     const form = document.getElementById("changeForm");
     let formElem = `
-    <input class='input_fields' type='text' placeholder='player_id' value=''/>
+    <input class='input_fields' type='text' placeholder='player_name' value=''/>
     <input class='input_fields' type='text' placeholder='sport_id' value=''/>
     <input class='input_fields' type='text' placeholder='pecialisatio' value=''/>
     <input class='input_fields' type='text' placeholder='join_date' value=''/>
