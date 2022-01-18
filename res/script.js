@@ -18,7 +18,7 @@ const loadXml = () => {
         }
     }
 
-    xhttp.open('GET','PLAYER_MANAGEMENT.xml',true);
+    xhttp.open('GET','samp.xml',true);
     xhttp.send();
 }
 
