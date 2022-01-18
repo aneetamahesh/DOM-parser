@@ -3,7 +3,7 @@
 	
 
 	<player>
-        <player id="P01">
+        <playerid id="P01">
             <player_name> MRINIS </player_name>
             <sport_id>1001</sport_id>
             <specialisation>Cornerback</specialisation>
@@ -15,7 +15,7 @@
 	</player>
 
     <player>
-        <player id="P02">
+        <playerid id="P02">
             <player_name> BALE </player_name>
             <sport_id>1003</sport_id>
             <specialisation>Quarterback</specialisation>
@@ -26,7 +26,7 @@
     </player>
 
     <player>
-        <player id="P03">
+        <playerid id="P03">
             <player_name> DAVID </player_name>
             <sport_id>1001</sport_id>
             <specialisation>Tight end</specialisation>
@@ -37,7 +37,7 @@
     </player>
 
     <player>
-        <player id="P04">
+        <playerid id="P04">
             <player_name> ROBERT </player_name>
             <sport_id>1005</sport_id>
             <specialisation>Defensive Linemen</specialisation>
@@ -48,7 +48,7 @@
     </player>
 
     <player>
-        <player id="P05">
+        <playerid id="P05">
             <player_name>ALFRED DENNISON </player_name>
             <sport_id>1006</sport_id>
             <specialisation>Cornerback</specialisation>
@@ -60,7 +60,7 @@
         </player>
 
     <player>
-        <player id="P06">
+        <playerid id="P06">
             <player_name> WILL SMITH </player_name>
             <sport_id>1006</sport_id>
             <specialisation>Tight end</specialisation>
@@ -71,7 +71,7 @@
     </player>
 
     <player>
-        <player id="P07">
+        <playerid id="P07">
             <player_name>JON SNOW </player_name>
             <sport_id>1002</sport_id>
             <specialisation>Defensive Linemen</specialisation>
@@ -82,7 +82,7 @@
     </player>
 
     <player>
-        <player id="P08">
+        <playerid id="P08">
             <player_name> NOAH EDWIN </player_name>
             <sport_id>1005</sport_id>
             <specialisation>FIELDER</specialisation>
@@ -94,7 +94,7 @@
     </player>
 
     <player>
-        <player id="P09">
+        <playerid id="P09">
             <player_name>NEWMAN DEW </player_name>
             <sport_id>1001</sport_id>
             <specialisation>KICKER</specialisation>
@@ -106,7 +106,7 @@
         </player>
 
     <player>
-        <player id="P10">
+        <playerid id="P10">
             <player_name> CHARLES </player_name>
             <sport_id>1001</sport_id>
             <specialisation>SAFETY</specialisation>
