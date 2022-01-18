@@ -26,7 +26,7 @@ const showTable = (xmlRes) => {
     if(!xmlRes){return;}
     state.xmlDocObj = xmlRes;
     let table;
-    table = `<tr style='background:#36304a;color:#fff;'>
+    table = `<tr style='background:#4a3030;color:#fff;'>
         <th>player_name</th>
         <th>sport_id</th>
         <th>specialisation</th>
